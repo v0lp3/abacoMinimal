@@ -11,4 +11,11 @@ public abstract class Button {
   }
 
   abstract public void show();
+
+  public boolean isHover() {
+    if (mouseX >= posX-50 && mouseX <= posX + 50 && mouseY >= posY - 20 && mouseY <= posY + 20 ) {
+      return true;
+    }
+    return false;
+  }
 }

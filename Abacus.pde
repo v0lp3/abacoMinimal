@@ -8,7 +8,7 @@ class Abacus {
   public Abacus(int b, int n) {
     poles = new ArrayList<Pole>();
     pn = n;
-  base = b;
+    base = b;
     for (int i = 0; i < pn; i++) {
       poles.add(new Pole(base, i));
     }
@@ -29,6 +29,7 @@ class Abacus {
   public void clearPoles() {
     for (Pole i : poles)
       i.clearPole();
+    clickCount = 0;
   }
   void show() {
     for (Pole i : poles)
@@ -36,7 +37,7 @@ class Abacus {
   }
   public void addClick() {
     clickCount++;
-    clickCount = clickCount % int(pow(base,pn));
+    clickCount = clickCount % int(pow(base, pn));
   }
   public void printNum() {
     int posX = width/2 + 25;

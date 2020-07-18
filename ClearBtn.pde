@@ -1,10 +1,10 @@
 class ClearBtn extends Button {
- public ClearBtn(int x, int y, Abacus a) {
-      super(x, y, a);
-    }
-  
+  public ClearBtn(int x, int y, Abacus a) {
+    super(x, y, a);
+  }
+
   public void show() {
-   
+
     stroke(0);
     strokeWeight(0.5);
     fill(color(153, 184, 227));
@@ -22,7 +22,7 @@ class ClearBtn extends Button {
   }
 
   public void clear() {
-    if (mouseX >= posX-50 && mouseX <= posX + 50 && mouseY >= posY - 20 && mouseY <= posY + 20 )
+    if (isHover())
       selected.clearPoles();
   }
 }

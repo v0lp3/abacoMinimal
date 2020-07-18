@@ -22,10 +22,9 @@ class AddBtn extends Button {
   }
 
   public void add() {
-    if (mouseX >= posX-50 && mouseX <= posX + 50 && mouseY >= posY - 20 && mouseY <= posY + 20 ) {
+    if (super.isHover()) {
       selected.addClick(); 
       selected.addUnit();
     }
   }
- 
 }

@@ -55,7 +55,7 @@ class Pole {
     for (Ring i : rings)
       i.show();
   }
-  
+
   public int getSize() {
     return rings.size();
   }
