@@ -6,7 +6,8 @@ class Ring {
     posX = x;
     posY = y;
   }
-
+  
+  // Show ring
   public void show() {
     noStroke();
     fill(color(144, 227, 167));
