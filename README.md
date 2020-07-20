@@ -2,8 +2,7 @@
 
 ------
 
-- **[Requisiti](#Requisiti)**
-- **[Comandi](#Comandi)**
+- **[Requisiti e comandi](#Requisiti)**
 - **[Screenshot](#Screenshot)**
 ------                         
 
