@@ -35,5 +35,5 @@ L'applicazione non utilizza alcun algoritmo in particolare per calcolare il nume
        alt="abacoMinimal"
        width="516"
        height="644"  
-      style="width:50%;
+      style="width:50%;"
  /> 
