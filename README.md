@@ -8,7 +8,7 @@
 
 ## Requisiti
 <p>
-L'applicazione si propone come uno strumento didattico per imparare intuitivamente a contare in binario/esadecimale/decimale.
+L'applicazione si propone come uno strumento didattico per imparare intuitivamente a contare in <em>binario</em>/<em>esadecimale</em>/<em>decimale</em>.
 La gestione dell'applet avviene attraverso 3 pulsanti: Add, Clear, Switch.
 
 :heavy_plus_sign: <strong>Add</strong>: Permette di aggiungere un'unità all'abaco selezionato.
