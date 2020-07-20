@@ -16,7 +16,7 @@ class AddBtn extends Button {
     rect(posX, posY+4, 100, 40);
 
 
-    printText("Add", posX-11, posY+6);
+    printText("Add", posX, posY);
   }
 
   // Button specific action

@@ -51,19 +51,20 @@ class Abacus {
   public void printDec() {
     textSize(20);
     fill(255);
-    text( "Dec: " + clickCount, 215, height - 50);
+    text( "Dec: " + clickCount, width/2, height - 50);
   }
-  
+
   // Get info of abacus base
   public void printTitle(String t, int x, int y) {
+    textAlign(CENTER, CENTER);
     textSize(28);
     fill(255);
     text(t, x, y);
   }
-  
+
   // Print number in abacus base
   public void printBase() {
-    int posX = width/2 + 25;
+    int posX = width/2 + 40;
     textSize(28);
     fill(255);
     for (int i = pn-1; i >= 0; i--) {

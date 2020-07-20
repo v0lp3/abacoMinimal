@@ -6,7 +6,7 @@ class Ring {
     posX = x;
     posY = y;
   }
-  
+
   // Show ring
   public void show() {
     noStroke();

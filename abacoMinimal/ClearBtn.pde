@@ -16,7 +16,7 @@ class ClearBtn extends Button {
     rect(posX, posY+4, 100, 40);
 
 
-    super.printText("Clear", posX-14, posY+6);
+    super.printText("Clear", posX, posY);
   }
 
   // Button specific action

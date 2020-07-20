@@ -16,7 +16,7 @@ class SwitchBtn extends Button {
     rect(posX, posY+4, 100, 40);
 
 
-    super.printText("Switch", posX-18, posY+6);
+    super.printText("Switch", posX, posY);
   }
 
   public boolean click() {

@@ -27,9 +27,9 @@ class Exadecimal extends Abacus {
   @Override
     void printBase() {
 
-    super.printTitle("Exadecimal abacus", width/2-125, 40);
+    super.printTitle("Exadecimal abacus", width/2, 30);
 
-    int posX = width/2 + 50;
+    int posX = width/2 + 55;
     textSize(28);
 
     fill(255);
@@ -38,7 +38,7 @@ class Exadecimal extends Abacus {
       text(code.get(num), posX, 70);
       posX -= 20;
     }
-    text("0x", posX - 15, 70);
+    text("0x", posX - 8, 70);
     printDec();
   }
 }

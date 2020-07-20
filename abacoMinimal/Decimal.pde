@@ -5,7 +5,7 @@ class Decimal extends Abacus {
 
   @Override
     void printBase() {
-    super.printTitle("Decimal abacus", width/2-95, 40);
+    super.printTitle("Decimal abacus", width/2, 30);
     super.printBase();
   }
 }
