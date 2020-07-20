@@ -14,7 +14,12 @@ La gestione dell'applet avviene attraverso 3 pulsanti: Add, Clear, Switch.
 :heavy_plus_sign: <strong>Add</strong>: Permette di aggiungere un'unità all'abaco selezionato.
 <br>:recycle: <strong>Clear</strong>: Permette di svuotare l'abaco selezionato.
 <br>:wrench: <strong>Switch</strong>: Permette di cambiare l'abaco selezionato tra quelli presenti.
+
+<br>
+In basso è sempre presente un contatore che indica il numero in <em>base 10</em>.
+
 </p>
+
 
 ## Note
 
