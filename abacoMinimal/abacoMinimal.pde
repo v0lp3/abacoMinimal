@@ -24,6 +24,7 @@ void draw() {
   button1.show();
   button2.show();
   button3.show();
+  
 }
 void mousePressed() {
   button1.click();

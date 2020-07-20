@@ -29,15 +29,16 @@ class Exadecimal extends Abacus {
 
     super.printTitle("Exadecimal abacus", width/2-125, 40);
 
-    int posX = width/2 + 25;
+    int posX = width/2 + 50;
     textSize(28);
+
     fill(255);
     for (int i = pn-1; i >= 0; i--) {
       Integer num = poles.get(i).getSize();
       text(code.get(num), posX, 70);
       posX -= 20;
     }
-
+    text("0x", posX - 15, 70);
     printDec();
   }
 }
